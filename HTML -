@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="cabeça">
+                <img src="https://cdn-icons-png.flaticon.com/128/7357/7357098.png">
+                <nav class="letreiro">
+                    <ul>
+                        <li><a href="#formulario"> FORMULÁRIO</a></li>
+                        <li><a href="#redes">REDES SOCIAIS </a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+       
+        <main>
+            
+            <form id="formulario">
+                  
+                <fieldset >
+                    
+                        <h2>Formulário do VWB</h2>
+                    <section class="formulario">
+                            
+                        
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required placeholder="Nome e Sobrenome" class="primeiro-form">
+                        
+                        <br>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="seuemail@dominio.com"  class="primeiro-form">
+                        <br>
+                    
+                        <label for="number">Idade:</label>
+                        <input type="number" id="number" name="number" required  class="primeiro-form" placeholder="Sua Idade Hoje">
+                    </section>
+                
+                <br>
+                <br>
+                
+                <section class="estuda">
+
+                    <h3>Você estuda além do vai na web?</h3>
+
+                    
+                    <label for="estuda">Sim</label><input id="estuda" type="radio" name="estuda" value="Sim" />
+                    
+                    
+                    <br/>
+                    
+                    <label for="estuda">Não</label><input id="estuda" type="radio" name="estuda" value="Não" />
+                
+                    
+                    <br/>
+                   
+                    <label for="estuda">As Vezes</label><input id="estuda" type="radio" name="estuda" value="asvezes" />
+                    
+
+                </section>
+                <br>
+                <section class="estuda">
+                    <h3>Dias que você Estuda:</h3>
+
+                    <label for="dias">Segunda</label><input type="checkbox" >
+                    
+                    
+                    <br>
+                    <label for="dias">Terça                  </label><input type="checkbox" >
+                    
+                    
+
+                    <br>
+                    <label for="dias">Quarta</label><input type="checkbox" >
+                    
+                    
+
+                    <br>
+                    <label for="dias">Quinta</label><input type="checkbox" >
+                    
+                    
+
+                    <br>
+                    <label for="dias">Sexta</label><input type="checkbox">
+                    
+                    
+
+                    <br>
+                    <label for="dias">Sabado</label><input type="checkbox" >
+                    
+                    
+
+                    <br>
+                    <label for="dias">Domindo</label><input type="checkbox" >
+                    
+                   
+
+                </section>
+                <br>
+
+                <div >
+                <input type="submit" class="botão" >
+                </div>
+                </fieldset>
+            </form>   
+        </main>
+
+     <br>
+
+        <footer>
+
+            <nav>
+                <div id="redes">
+                    <a href="https://github.com/Mariachf" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png" alt="GitHub" 
+                    
+                        width="20" 
+                        height="20" 
+                    /></a>
+
+                    <a href="https://codesandbox.io/dashboard/recent?workspace=0ab20655-afcd-4ab6-bcf4-29bb675306b5">
+                    <img src="https://cdn-icons-png.flaticon.com/512/57/57581.png" alt="Code Sandbox"
+                        width="20" 
+                        height="20" /></a>
+
+
+                    <a href="https://www.linkedin.com/in/maria-eduarda-fonseca-109862173/">
+                    <img src="https://cdn-icons-png.flaticon.com/128/3256/3256016.png" alt="Linkedin" 
+                        width="20"
+                        height="20"/></a>
+                </div>
+                <p>&copy; Copyright: Eduarda Fonseca</p>
+            </nav>
+        </footer>
+        
+    </body>
+    
+    </html>
