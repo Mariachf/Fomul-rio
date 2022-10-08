@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    
+}
+
+header{
+   padding: 20px 0;
+   background: #483D8B;
+}
+
+.cabeça{
+    position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+ul a{
+    color:white;
+    text-decoration: none;
+    transition: 1s;
+    
+}
+
+
+ul{
+    list-style: none;
+    
+}
+
+.letreiro{
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.letreiro li{
+    display: inline;
+    margin: 0 0 0 15px;
+	
+}
+
+.letreiro a:hover{
+    color:black;
+}
+
+
+
+form{
+    margin: 20px 20px 20px 20px;
+}
+
+fieldset{
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 6px;
+    background: #483D8B ;
+    border: none;
+}
+h2{
+    text-align: center;
+    padding: 15px;
+}
+h3{
+    padding:10px 10px;
+    text-align: center;
+}
+
+label{
+    margin: 0 170px;
+}
+.estuda label{
+    margin: 0 10px;
+    display: inline-block;
+    width: 60px;
+    padding: 0 20%;
+}
+
+.primeiro-form{
+    width: 50%;
+    height: 22px;
+    margin: 10px 95px;
+    border-radius: 4px;
+    border: none;
+    vertical-align: middle;
+    position: relative;
+    top: 1px;
+}
+
+.botão{
+    width: 90%;
+    height: 30px;
+    margin: 10px 22px;
+    border: none;
+    border-radius: 4px;
+    transition: 1s;
+    background: #5d86f7;
+    color: white;
+    font-family:'Open Sans', sans-serif ;
+    
+}
+
+.botão:hover{
+    background: #284caf;
+}
+
+
+.estuda input{
+    margin: 0 37px;
+
+}
+
+::-webkit-input-placeholder{
+    
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    
+}
+
+footer{
+    text-align: center;
+    background: #483D8B;
+    position: relative;
+	padding: 5%;
+    color: white;
+    
+}
+
+p{
+    margin: 20px 0;
+}
